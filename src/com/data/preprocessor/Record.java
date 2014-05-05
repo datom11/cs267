@@ -24,6 +24,7 @@ public class Record {
 		
 		for(int i=0;i<length-2;i++)
 		{
+			//System.out.println(recordArray[i+1]);
 			features[i]=Double.parseDouble(recordArray[i+1]);
 		}
 	}
